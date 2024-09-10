@@ -8,7 +8,7 @@ import Dropdown from "./templates/Dropdown";
 import Loading from "./Loading";
 
 const Home = () => {
-    document.title = "SCSDB | Homepage";
+    document.title = "MovieBuzz | Homepage";
     const [wallpaper, setWallpaper] = useState(null);
     const [trending, setTrending] = useState(null);
     const [category, setCategory] = useState("all");
