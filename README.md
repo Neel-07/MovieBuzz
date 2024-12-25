@@ -1,8 +1,35 @@
-<h1 align="center">MovieBuzz WebApp</h1>
+<div align="center">
+  <h1>MOVIEBUZZ 🎥 </h1>
+  <h2>
+    <a href="https://movie-buzz-six.vercel.app/">VISIT THE WEBSITE</a>
+  </h2>
+</div>
+
+
 <h2 align="center">API NOT WORKING PROPERLY</h2>
 
-
 This project is a React-based application designed to display detailed information about movies. It includes features such as viewing movie details, recommendations, similar movies, watch providers, and more.
+
+## Table of Contents 📑
+
+- Overview
+- Demo
+- Features
+- Tech Stack
+- API Information
+
+## Overview 📝
+
+The MovieBuzz Project is a frontend development project that aims to provide users with detailed information about movies, including features such as viewing movie details, recommendations, similar movies, watch providers, and more.
+
+## Demo 🚀
+
+Check out the live demo of the Refokus Project Clone Website: [Live Demo](https://movie-buzz-six.vercel.app/)
+
+# Reference Images 
+
+<img width="1057" alt="image" src="https://github.com/user-attachments/assets/eeee8141-9ba8-443d-9aef-409ae585acba">
+
 
 ## Features
 
@@ -12,32 +39,15 @@ This project is a React-based application designed to display detailed informati
 - Watch movie trailers.
 - Display translated titles.
 
-## Technologies Used
+## Tech Stack
 
-- React
-- Redux (for state management)
-- Axios (for API calls)
-- Tailwind CSS (for styling)
-
-## Installation
-
-1. **Clone the Repository**
-
-   ```git clone https://github.com/Neel-07/MovieBuzz.git```
-   ```cd moviebuzz```
-
-2. **Install Dependencies**   
-
-   Make sure you have Node.js installed. Then, install the project dependencies:
-   ```npm install```
-
-3. **Configure Axios**
-    Ensure that your axios configuration in src/utils/axios.js does not include an API key if not required. Adjust the base URL and other settings as needed.
-
-4. **Set Up Environment Variables**
-     Create a .env file in the root directory if you need to include environment variables. 
-     For example:REACT_APP_API_BASE_URL=https://api.example.com
-
+- **React** for building the user interface
+- **Redux** for state management
+- **Axios** for making API calls
+- **Tailwind CSS** for styling
+- **React Router** for navigation
+- **React Icons** for including icons
+- **Framer Motion** for animations
 
 ## API Information
 
@@ -50,16 +60,3 @@ The application fetches movie data from an external API. The following endpoints
 - `/movie/:id/translations` - Gets translated titles.
 - `/movie/:id/videos` - Fetches movie videos (e.g., trailers).
 - `/movie/:id/watch/providers` - Provides information on where the movie can be watched, rented, or bought.
-
-
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-## Acknowledgements
-React - The JavaScript library used for building user interfaces.
-Redux - A predictable state container for JavaScript apps.
-Axios - Promise-based HTTP client for the browser and Node.js.
-Tailwind CSS - A utility-first CSS framework.
